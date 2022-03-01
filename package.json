@@ -20,7 +20,7 @@
   "license": "MIT",
   "peerDependencies": {
     "immutable": "~3.7.4",
-    "braft-convert": "^2.1.4",
+    "braft-convert": "git+ssh://git@github.com:jsckdao/braft-convert.git#iframe",
     "draft-js": "^0.10.5",
     "draftjs-utils": "^0.9.4"
   },
