@@ -433,7 +433,7 @@ var insertText = exports.insertText = function insertText(editorState, text, inl
   var contentState = editorState.getCurrentContent();
 
   if (entity && entity.type) {
-    contentState = contentState.createEntity(entity.type, entity.mutability || 'MUTABLE', entity.data || entityData);
+    contentState = contentState.createEntity(entity.type, entity.mutability || 'MUTABLE', entity.data || {});
     entityKey = contentState.getLastCreatedEntityKey();
   }
 
